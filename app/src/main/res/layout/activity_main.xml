@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/background">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        >
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="50pt"
+                android:layout_height="50pt"
+                android:layout_margin="5dp"
+                android:onClick="buClick"
+                android:text=""
+                android:textSize="20pt"
+                app:backgroundTint="#FCF6F5FF" />
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="50pt"
+                android:layout_height="50pt"
+                app:backgroundTint="#FCF6F5FF"
+                android:layout_margin="5dp"
+                android:onClick="buClick"
+                android:textSize="20pt"
+                android:text="" />
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="50pt"
+                android:layout_height="50pt"
+                app:backgroundTint="#FCF6F5FF"
+                android:layout_margin="5dp"
+                android:textSize="20pt"
+                android:onClick="buClick"
+                android:text="" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/button4"
+                android:layout_width="50pt"
+                android:layout_height="50pt"
+                app:backgroundTint="#FCF6F5FF"
+                android:layout_margin="5dp"
+                android:onClick="buClick"
+                android:textSize="20pt"
+                android:text="" />
+
+            <Button
+                android:id="@+id/button5"
+                android:layout_width="50pt"
+                android:layout_height="50pt"
+                app:backgroundTint="#FCF6F5FF"
+                android:layout_margin="5dp"
+                android:onClick="buClick"
+                android:textSize="20pt"
+                android:text="" />
+
+            <Button
+                android:id="@+id/button6"
+                android:layout_width="50pt"
+                android:layout_height="50pt"
+                app:backgroundTint="#FCF6F5FF"
+                android:layout_margin="5dp"
+                android:onClick="buClick"
+                android:textSize="20pt"
+                android:text="" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/button7"
+                android:layout_width="50pt"
+                android:layout_height="50pt"
+                app:backgroundTint="#FCF6F5FF"
+                android:layout_margin="5dp"
+                android:onClick="buClick"
+                android:textSize="20pt"
+                android:text="" />
+
+            <Button
+                android:id="@+id/button8"
+                android:layout_width="50pt"
+                android:layout_height="50pt"
+                app:backgroundTint="#FCF6F5FF"
+                android:layout_margin="5dp"
+                android:onClick="buClick"
+                android:textSize="20pt"
+                android:text="" />
+
+            <Button
+                android:id="@+id/button9"
+                android:layout_width="50pt"
+                android:layout_height="50pt"
+                app:backgroundTint="#FCF6F5FF"
+                android:layout_margin="5dp"
+                android:onClick="buClick"
+                android:textSize="20pt"
+                android:text="" />
+        </TableRow>
+    </TableLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
